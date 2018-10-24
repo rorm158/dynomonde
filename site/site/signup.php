@@ -52,6 +52,8 @@ if (isset($_POST['signup'])) {
         $_SESSION['username'] = $_POST['username'];
         $_SESSION['email'] = $_POST['email'];
         $_SESSION['password'] = $_POST['password'];        
+    }else{
+        echo 'Les deux mots de passe ne correspondent pas';
     }
 }
 ?>

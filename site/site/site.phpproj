@@ -27,6 +27,8 @@
     <Compile Include="signout.php" />
     <Compile Include="signup.php" />
     <Compile Include="style.php" />
+    <Compile Include="style2_css.php" />
+    <Compile Include="style3_css.php" />
     <Compile Include="wiki.php" />
   </ItemGroup>
   <ItemGroup>
