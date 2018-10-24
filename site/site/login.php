@@ -26,9 +26,9 @@ session_start();
 
             <input type="submit" name="submit" value="Login" />
 
-            <a class="b" href="#">Mot de passe oublié ?</a>
+            <a class="b" href="#">Mot de passe oubliï¿½ ?</a>
             <br />
-            <a class="b" href="signup.php">Créer un compte</a>
+            <a class="b" href="signup.php">Crï¿½er un compte</a>
         </form>
     </div>
 </body>
