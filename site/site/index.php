@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
@@ -18,7 +18,7 @@
         </ul>
         <div class="nbmaj">Mise à jour 0.0.1</div>
         <img src="images\dino.png" align="left">
-        <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base</div>
+        <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base ROMAIN LE CON</div>
          <div class="nbmaj">Mise à jour 0.0.1</div>
         <img src="images\dino.png" align="left">
         <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base</div>
