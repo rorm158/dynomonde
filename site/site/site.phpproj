@@ -24,7 +24,7 @@
     <Compile Include="index.php" />
     <Compile Include="jouer.php" />
     <Compile Include="login.php" />
-    <Compile Include="signout.php" />
+    <Compile Include="logout.php" />
     <Compile Include="signup.php" />
     <Compile Include="style.php" />
     <Compile Include="style2_css.php" />

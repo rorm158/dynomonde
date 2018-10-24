@@ -11,12 +11,6 @@ body
     font-family: "Audiowide";
     font-weight: 300;
 }
-
-
-
-
-
-
 #login-box
 {
     position: relative;

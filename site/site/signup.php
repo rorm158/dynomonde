@@ -48,10 +48,12 @@ session_start();
 </html>
 <?php
 if (isset($_POST['signup'])) {
-    if ($_POST['password'] == $_POST['password2']) {
-        $_SESSION['username'] = $_POST['username'];
+    if ($_POST['password'] == $_POST['password2']) {  //alors on sauvegarde les données dans la bdd
+        $_SESSION['login'] = $_POST['username'];
         $_SESSION['email'] = $_POST['email'];
-        $_SESSION['password'] = $_POST['password'];        
+        $_SESSION['password'] = $_POST['password'];
+        $_SESSION['identification'] = true;
+        header('Location: index.php');
     }else{
         echo 'Les deux mots de passe ne correspondent pas';
     }

@@ -10,12 +10,11 @@ session_start();
     <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' />
 </head>
 <body>
-<h1 class="principal">DYNOMONDE REMAKE</h1>
     <?php
     if ($_SESSION['identification'] != true)
-    {?>   
-
-    <ul>
+    {?>
+    <h1 class="principal">DYNOMONDE REMAKE</h1>
+    <ul class="menu">
         <li>
             <a href="index.php">Accueil</a>
         </li>
@@ -47,11 +46,26 @@ session_start();
     <div class="nbmaj">Mise à jour 0.0.1</div>
     <img src="images\dino.png" align="left" />
     <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base</div>
-</body>
 
-<?php
+    <?php
     }else{?>
-    <ul>
+
+    <ul class="util">
+        <li><a><img class="utilimg" src="images/avatar2.png" /><br><?php echo $_SESSION['login']?></a>
+            <ul class="aled">
+                <li>
+
+                    <a href="compte.php">Profil</a>
+                </li>
+                <li>
+                    <a href="logout.php">Déconnexion</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h1 class="principal">DYNOMONDE REMAKE</h1>
+    <ul class="menu">
         <li>
             <a href="index.php">Accueil</a>
         </li>
@@ -67,12 +81,7 @@ session_start();
         <li>
             <a href="wiki.php">Wiki</a>
         </li>
-        <li>
-            <a href="signout.php">Déconnexion</a>
-        </li>
-        <li>
-        <a href="compte.php">Compte</a>
-        </li>
+
     </ul>
     <div class="nbmaj">Mise à jour 0.0.1</div>
     <img src="images\dino.png" align="left" />
@@ -83,6 +92,7 @@ session_start();
     <div class="nbmaj">Mise à jour 0.0.1</div>
     <img src="images\dino.png" align="left" />
     <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base</div>
+
 </body>
-<?php }?>?>
+<?php }?>
 </html>

@@ -18,7 +18,6 @@ body {
     color: #545454;
     background-color: white;
 }
-
 h2 {
     font-family:"Audiowide" ;
     color: #232;
@@ -40,7 +39,7 @@ p {
     font-family: "Courier New", Courier, monospace;
 }
 
-ul {
+.menu {
     list-style-type: none;
     margin: 15px ;
     padding: 0;
@@ -48,12 +47,12 @@ ul {
     background-color: #333333;
 }
 
-li {
+.menu li {
     float: left;
     font-family:"Audiowide" ;
     }
 
-li a {
+.menu li a {
     display: block;
     color: white;
     text-align: center;
@@ -62,7 +61,7 @@ li a {
 
 }
 
-li a:hover {
+.menu li a:hover {
     background-color: #111111;
 }
 
@@ -82,4 +81,58 @@ padding-left: 200px;
  margin-left:300px;
  color: #ffffff;
 font-size: 20px;
+}
+
+.utilimg{
+float:right;
+width: 50px;
+height: 50px;
+}
+
+.util{
+float:right;
+}
+
+.aled {
+display: none;
+} 
+
+.util li{
+list-style-type:none;
+}
+
+.util a{
+display:inline-block;
+text-decoration:none;
+}
+
+.aled li a{
+padding: 15px 10px;
+color:white;
+background-color:#333333;
+width:110px;
+height:20px;
+}
+
+.util li:hover .aled{
+display: inline-block;
+position:absolute;
+top:75px;
+left:1022px;
+padding-top:45px;
+z-index:100000;
+}
+
+.aled li ul li a{
+padding:15px;
+width:80px;
+}
+
+.util::after{
+content="";
+display:block;
+clear:both;
+}
+.aled li a:hover {
+    background-color: #111111;
 }
