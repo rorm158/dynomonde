@@ -15,6 +15,8 @@
             <li><a href="commentjouer.php">Comment Jouer?</a></li>
             <li><a href="forum.php">Forum</a></li>
             <li><a href="wiki.php">Wiki</a></li>
+            <li><a href="login.php">Connexion</a></li>
+            <li><a href="signup.php">Inscription</a></li>
         </ul>
         <div class="nbmaj">Mise à jour 0.0.1</div>
         <img src="images\dino.png" align="left">
