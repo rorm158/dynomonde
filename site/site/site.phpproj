@@ -16,11 +16,6 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="commentjouer.php" />
-    <Compile Include="forum.php" />
     <Compile Include="index.php" />
-    <Compile Include="jouer.php" />
-    <Compile Include="style.php" />
-    <Compile Include="wiki.php" />
   </ItemGroup>
 </Project>
