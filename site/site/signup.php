@@ -14,18 +14,21 @@ session_start();
     <div id="login-box">
         <div class="left-box">
             <h1> Inscription</h1>
+            <a href="index.php">Accueil</a>
 
-            <input type="text" name="username" placeholder="Nom d'utilisateur" />
+            <form action="signup.php" method="POST">
 
-            <input type="text" name="email" placeholder="Email" />
+                <input type="text" name="username" placeholder="Nom d'utilisateur" />
 
-            <input type="password" name="mdp" placeholder="Mot de passe" />
+                <input type="text" name="email" placeholder="Email" />
 
-            <input type="password" name="mdp2" placeholder="Confirmer mot de passe" />
+                <input type="password" name="password" placeholder="Mot de passe" />
 
-            <input type="submit" name="signup" value="" />
+                <input type="password" name="password2" placeholder="Confirmer mot de passe" />
 
-        </div>
+                <input type="submit" name="signup" value="S'inscrire" />
+            </form>
+</div>
         <div class="right-box">
             <h1 class="signinwith">
                 Sign in with
@@ -43,3 +46,12 @@ session_start();
 
 </body>
 </html>
+<?php
+if (isset($_POST['signup'])) {
+    if ($_POST['password'] == $_POST['password2']) {
+        $_SESSION['username'] = $_POST['username'];
+        $_SESSION['email'] = $_POST['email'];
+        $_SESSION['password'] = $_POST['password'];        
+    }
+}
+?>

@@ -24,7 +24,7 @@ session_start();
             <p>Mot de passe</p>
             <input type="text" name="mdp" value="" placeholder="Mot de passe" />
 
-            <input type="submit" name="login" value="Login" />
+            <input type="submit" name="submit" value="Login" />
 
             <a class="b" href="#">Mot de passe oublié ?</a>
             <br />
@@ -34,7 +34,7 @@ session_start();
 </body>
 </html>
 <?php
-if (isset($_POST['login'])) {
+if (isset($_POST['submit'])) {
     $_SESSION['login'] = $_POST['login'];
     $_SESSION['mdp'] = $_POST['mdp'];
     $_SESSION['identification'] = true;
