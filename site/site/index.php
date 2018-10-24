@@ -16,8 +16,8 @@
             <li><a href="forum.php">Forum</a></li>
             <li><a href="wiki.php">Wiki</a></li>
         </ul>
-        <div class="nbmaj">Mise à jour 0.0.1</div>
+        <div class="nbmaj">Mise Ã  jour 0.0.1</div>
         <img src="images\dino.png" align="left">
-        <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base</div>
+        <div class="textemaj">CrÃ©ation de la base du site, avec le menu, les titres et quelques informations de base</div>
     </body>
 </html>
