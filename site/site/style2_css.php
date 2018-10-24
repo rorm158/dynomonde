@@ -8,18 +8,11 @@ body{
     background-size: cover;
     background-position: center;
     font-family:"Audiowide";
-    font-size:20px;
-    
-   
+    font-size:20px;   
 }
-
-
-
 a.b{
-    font-family:sans-serif;
-    
+    font-family:sans-serif;    
 }
-
 
 .loginbox{
     width: 350px;
