@@ -23,4 +23,7 @@
     <Compile Include="style.php" />
     <Compile Include="wiki.php" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
 </Project>
