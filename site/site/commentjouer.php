@@ -17,7 +17,7 @@
             <li><a href="wiki.php">Wiki</a></li>
         </ul>
         <p>
-            Bienvenue blabla blabla blabla blabla blabla blabla blabla blabla blablablabla Bienvenue blabla blabla blabla blabla blabla blabla blabla blabla blablablablaBienvenue blabla blabla blabla blabla blabla blabla blabla blabla blablablablaBienvenue blabla blabla blabla blabla blabla blabla blabla blabla blablablablaBienvenue blabla blabla blabla blabla blabla blabla blabla blabla blablablabla.    
+            Bienvenue2 blabla blabla blabla blabla blabla blabla blabla blabla blablablabla Bienvenue blabla blabla blabla blabla blabla blabla blabla blabla blablablablaBienvenue blabla blabla blabla blabla blabla blabla blabla blabla blablablablaBienvenue blabla blabla blabla blabla blabla blabla blabla blabla blablablablaBienvenue blabla blabla blabla blabla blabla blabla blabla blabla blablablabla.    
         </p>
     </body>
 </html>
