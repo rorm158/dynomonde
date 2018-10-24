@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="fr">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta charset="UTF-8">
         <title>Dynomonde</title>
         <link rel="stylesheet" href="style.php" media="all" type="text/css" />
           <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
