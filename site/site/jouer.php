@@ -1,71 +1,99 @@
+<?php
+session_start();
+?>
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Dynomonde</title>
-        <link rel="stylesheet" href="style.php" media="all" type="text/css" />
-         <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
-    </head>
-    <body>
-         <h1 class="principal">JOUER</h1>
-        <ul class="menu">
-            <li>
-                <a href="index.php">Accueil</a>
-            </li>
-            <li>
-                <a href="jouer.php">Jouer</a>
-            </li>
-            <li>
-                <a href="commentjouer.php">Comment Jouer?</a>
-            </li>
-            <li>
-                <a href="forum.php">Forum</a>
-            </li>
-            <li>
-                <a href="wiki.php">Wiki</a>
-            </li>
-        </ul>
-    </body>
-</html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dynomonde</title>
+    <link rel="stylesheet" href="style.php" media="all" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' />
+</head>
+<body>
+    <?php
+    if ($_SESSION['identification'] != true)
+    {
+        header('Location: index.php');
+    }
+    ?>
+    <ul class="util">
+        <li>
+            <a>
+                <img class="utilimg" src="images/avatar2.png" />
+                <br /><?php echo $_SESSION['login']?>
+            </a>
+            <ul class="util2">
+                <li>
 
-<!DOCTYPE html>
+                    <a href="compte.php">Profil</a>
+                </li>
+                <li>
+                    <a href="logout.php">Déconnexion</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h1 class="principal">JOUER</h1>
+    <ul class="menu">
+        <li>
+            <a href="index.php">Accueil</a>
+        </li>
+        <li>
+            <a href="jouer.php">Jouer</a>
+        </li>
+        <li>
+            <a href="commentjouer.php">Comment Jouer?</a>
+        </li>
+        <li>
+            <a href="forum.php">Forum</a>
+        </li>
+        <li>
+            <a href="wiki.php">Wiki</a>
+        </li>
+    </ul>
+</body>
+</html>
 <html>
-  <head>
-    <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8" />
     <title>Chat jQuery</title>
-      <style type="text/css">
-      #conversation {
-        width: 300px;
-        height: 400px;
-        border: black 1px solid;
-        background-color: #efecca;
-        overflow-x: hidden;
-        overflow-y: scroll; 
-        padding: 5px;
-        margin-left: 10px;
-      }
-      fieldset {
-        width: 330px;
-        background-color: #e6e2af;
-        border: black 1px solid;
-      }    
+    <style type="text/css">
+        #conversation {
+            width: 300px;
+            height: 400px;
+            border: black 1px solid;
+            background-color: #efecca;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            padding: 5px;
+            margin-left: 10px;
+        }
+
+        fieldset {
+            width: 330px;
+            background-color: #e6e2af;
+            border: black 1px solid;
+        }
     </style>
-  </head>
-  
-  <body>
-   <fieldset>
-     <legend>Un chat en jQuery</legend>
-      <div id="conversation"></div><br />
-      <form action="#" method="post">
-        <input type="text" id="nom" value="pseudo" size="6">
-        <input type="text" id="message" size="27">
-        <button type="button" id="envoyer" title="Envoyer"><img src="envoyer.gif"></button>
-      </form>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Un chat en jQuery</legend>
+        <div id="conversation"></div>
+        <br />
+        <form action="#" method="post">
+            <input type="text" id="nom" value="pseudo" size="6" />
+            <input type="text" id="message" size="27" />
+            <button type="button" id="envoyer" title="Envoyer">
+                <img src="envoyer.gif" />
+            </button>
+        </form>
     </fieldset>
-      jquery
+    jquery
        $(function() {
     afficheConversation();
-      
+
     $('#envoyer').click(function() {
         var nom = $('#nom').val();
         var message = $('#message').val();
@@ -80,13 +108,13 @@
       $('#message').val('');
       $('#message').focus();
     }
-      
+
     setInterval(afficheConversation, 4000);
   });
 
-  </body>
+</body>
 </html>
-php 
+php
 <?php
 $nom = $_POST['nom'];                    //On récupère le pseudo et on le stocke dans une variable
 $message = $_POST['message'];            //On fait de même avec le message

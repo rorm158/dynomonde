@@ -9,7 +9,7 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 body {
-    margin:  auto;
+    margin: auto;
     padding: 2em 2em 4em;
     max-width: 800px;
     font-family: "Audiowide";
@@ -144,12 +144,22 @@ clear:both;
     background-color: #111111;
 }
 
-                                                    /* Ecran de connexion */
+                                                    /* Page d'inscription */
+
+.signup{
+    margin: auto;
+    padding: 2em 2em 4em;
+    background-color: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: "Audiowide";
+    font-weight: 300;
+}
 
 #signupbox{
     position: relative;
     margin: 5% auto;
-    height: 400px;
+    height: 460px;
     width: 600px;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -163,16 +173,6 @@ clear:both;
     padding: 50px;
     width: 300px;
     height: 400px;
-}
-
-.signup{
-    margin: 0;
-    padding: 0;
-    background: #efefef;
-    font-size: 16px;
-    color: #777;
-    font-family: "Audiowide";
-    font-weight: 300;
 }
 
 .signup h1{
@@ -201,7 +201,7 @@ input[type="text"],input[type="password"]{
 
 input[type="submit"]{
     margin-bottom: 28px;
-    width: 120px;
+    width: auto;
     height: 32px;
     background: darkgreen;
     border: none;
@@ -212,7 +212,6 @@ input[type="submit"]{
     text-transform: uppercase;
     transition: 0.2s ease;
     cursor: pointer;
-
 }
 
 input[type="submit"]:hover,input[type="submit"]:focus{
@@ -227,7 +226,7 @@ input[type="submit"]:hover,input[type="submit"]:focus{
     box-sizing: border-box;
     padding: 40px;
     width: 300px;
-    height: 400px;
+    height: 460px;
     background-image: url(../images/image1.jpg);
     background-size: cover;
     background-position: center;
@@ -236,7 +235,7 @@ input[type="submit"]:hover,input[type="submit"]:focus{
 
 .or{
     position: absolute;
-    top: 180px;
+    top: 210px;
     left: 280px;
     width: 40px;
     height: 40px;
@@ -281,7 +280,7 @@ button.social{
     background: #dd4b39;
 }
 
-                                                        /* Page d'inscription */
+                                                        /* Page de connexion */
 
 .loginbox a{
     font-family:sans-serif;    
@@ -343,7 +342,7 @@ button.social{
     font-family:"Audiowide";
     font-size:16px;
 }
-.loginbox input[type="submit"]
+.loginbox  input[type="submit"]
 {
     border: none;
     outline: none;
@@ -353,6 +352,7 @@ button.social{
     font-size: 18px;
     border-radius: 20px;
     font-family:"Audiowide";
+
 }
 .loginbox input[type="submit"]:hover
 {
