@@ -24,7 +24,7 @@ h2 {
     line-height: 1.6;
 }
 
-body h1{
+h1{
     color: #232;
     text-align: center;
     font-family:"Audiowide" ;
