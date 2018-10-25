@@ -19,9 +19,6 @@ session_start();
             <a href="index.php">Accueil</a>
         </li>
         <li>
-            <a href="jouer.php">Jouer</a>
-        </li>
-        <li>
             <a href="commentjouer.php">Comment Jouer?</a>
         </li>
         <li>
@@ -52,7 +49,7 @@ session_start();
 
     <ul class="util">
         <li><a><img class="utilimg" src="images/avatar2.png" /><br><?php echo $_SESSION['login']?></a>
-            <ul class="aled">
+            <ul class="util2">
                 <li>
 
                     <a href="compte.php">Profil</a>

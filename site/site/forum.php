@@ -9,7 +9,7 @@
     <body>
          <h1 class="principal">FORUM</h1>
         
-        <ul>
+        <ul class="menu">
             <li><a href="index.php">Accueil</a></li>
             <li><a href="jouer.php">Jouer</a></li>
             <li><a href="commentjouer.php">Comment Jouer?</a></li>

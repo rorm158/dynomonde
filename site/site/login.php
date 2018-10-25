@@ -7,11 +7,11 @@ session_start();
 
     <title>Dynomonde</title>
 
-    <link rel="stylesheet" type="text/css" href="style2_css.php" />
+    <link rel="stylesheet" type="text/css" href="style.php" />
 
     <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' />
 </head>
-<body>
+<body class="login">
     <div class="loginbox">
         <img src="images/avatar2.png" class="avatar" />
         <h1>Connexion</h1>

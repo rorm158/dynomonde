@@ -6,12 +6,11 @@ session_start();
     <meta charset="UTF-8" />
 
     <title>Dynomonde</title>
-    <link rel="stylesheet" type="text/css" href="style3_css.php" />
+    <link rel="stylesheet" type="text/css" href="style.php" />
     <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' />
 </head>
-<body>
-
-    <div id="login-box">
+<body class="signup">
+    <div id="signupbox">
         <div class="left-box">
             <h1> Inscription</h1>
             <a href="index.php">Accueil</a>

@@ -8,12 +8,22 @@
     </head>
     <body>
          <h1 class="principal">JOUER</h1>
-        <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="jouer.php">Jouer</a></li>
-            <li><a href="commentjouer.php">Comment Jouer?</a></li>
-            <li><a href="forum.php">Forum</a></li>
-            <li><a href="wiki.php">Wiki</a></li>
+        <ul class="menu">
+            <li>
+                <a href="index.php">Accueil</a>
+            </li>
+            <li>
+                <a href="jouer.php">Jouer</a>
+            </li>
+            <li>
+                <a href="commentjouer.php">Comment Jouer?</a>
+            </li>
+            <li>
+                <a href="forum.php">Forum</a>
+            </li>
+            <li>
+                <a href="wiki.php">Wiki</a>
+            </li>
         </ul>
     </body>
 </html>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
     <head>
         <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <body>
          <h1 class="principal">COMMENT JOUER ?</h1>
         
-        <ul>
+        <ul class="menu">
             <li><a href="index.php">Accueil</a></li>
             <li><a href="jouer.php">Jouer</a></li>
             <li><a href="commentjouer.php">Comment Jouer?</a></li>
