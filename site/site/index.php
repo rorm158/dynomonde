@@ -1,5 +1,7 @@
 <?php
 session_start();
+if(!isset($_SESSION['identification'])){$_SESSION['identification']=false;}
+if(!isset($_SESSION['login'])){$_SESSION['login']="";}
 ?>
 <!DOCTYPE HTML>
 <html lang="fr">
@@ -36,7 +38,7 @@ session_start();
     </ul>
     <div class="nbmaj">Mise à jour 0.0.1</div>
     <img src="images\dino.png" align="left" />
-    <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base ROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CON</div>
+    <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base</div>
     <div class="nbmaj">Mise à jour 0.0.1</div>
     <img src="images\dino.png" align="left" />
     <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base</div>
@@ -82,7 +84,7 @@ session_start();
     </ul>
     <div class="nbmaj">Mise à jour 0.0.1</div>
     <img src="images\dino.png" align="left" />
-    <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base ROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CONROMAIN LE CON</div>
+    <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base</div>
     <div class="nbmaj">Mise à jour 0.0.1</div>
     <img src="images\dino.png" align="left" />
     <div class="textemaj">Création de la base du site, avec le menu, les titres et quelques informations de base</div>
